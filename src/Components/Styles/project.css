@@ -1,0 +1,74 @@
+/* @font-face {
+    font-family: Imported;
+    src: url(../alien-ravager-font/TarrgetCondensed-EME4.otf);
+}
+@font-face {
+    font-family: imp;
+    src: url(../source-sans-pro/SourceSansPro-BlackItalic.ttf);
+}
+@font-face {
+    font-family: impp;
+    src: url(../source-sans-pro/SourceSansPro-Italic.ttf);
+} */
+
+
+.projects{
+    color: white;
+    /* position: absolute; */
+    margin-top: 6743px;
+    margin-left: -10rem;
+    background-color: transparent;
+    height: 2000px;
+    /* width: 100%; */
+    padding-top: 20px;
+    text-align: center;
+    /* z-index: -200; */
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+.projectheading{
+    font-size: 1em;
+    font-family: Imported;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    outline: none;
+}
+.projectheading span{
+    animation: animate 3s linear infinite;
+
+}
+.timeline{
+    /* padding-top: 180px; */
+    margin-top: -439rem;
+}
+.line {
+    height: 68rem;
+}
+.timelineheadingodd{
+    color:#6bdcfe;
+    text-shadow: 0 0 20px #4c84fe;
+    font-size: 2rem;
+    font-family: imp;
+    /* margin-top: -70px; */
+}
+.timelineheadingeven{
+    color:#ea50bc;
+    text-shadow: 0 0 20px #c10789;
+    font-size: 2rem;
+    margin-top: -5px;
+    font-family: imp;
+}
+.timelinecontent{
+    color:wheat;
+    font-family: impp;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: #6bdcfe;
+}

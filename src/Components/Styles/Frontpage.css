@@ -1,0 +1,118 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #fff; */
+    list-style: none;
+    font-family: 'lato',sans-serif;
+    
+}
+.container
+{
+    height:91vh;
+    width:80%;
+    position:absolute;
+    /* background: #000; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -47.8rem;
+    margin-left: 3rem;
+
+/* 
+    padding:0,20px; */
+    background: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    /* display: flex; */
+    /* position: relative; */
+    border-radius: 25px;
+    border:2px solid rgba(255,255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10,10,10,0.25);
+}
+.container::before
+{
+    content:'';
+    position: absolute;
+    height: 145px;
+    width:145px;
+    border-radius: 50%;
+    background: linear-gradient(#08ffe6,#fcd200);
+    transform: translate(-490px,-150px);
+    margin-left: -16rem;
+    margin-top: -14rem;
+}
+
+.container::after
+{
+    content:'';
+    position: absolute;
+    height: 145px;
+    width:145px;
+    border-radius: 50%;
+    background: linear-gradient(#fcd200,#fc002e);
+    transform: translate(490px,170px);
+    margin-left: 288px;
+    margin-bottom: -180px;
+}
+
+
+.link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: #828282;
+    text-decoration: none;
+}
+.link:focus, .link:hover {
+    color: #c6e2ff;
+    text-shadow: 0 0 2px rgba(202, 228, 225, 0.92), 0 0 10px rgba(202, 228, 225, 0.34), 0 0 4px rgba(30, 132, 242, 0.52), 0 0 7px rgba(30, 132, 242, 0.92), 0 0 11px rgba(30, 132, 242, 0.78), 0 0 16px rgba(30, 132, 242, 0.92);
+}
+
+/* .container .ball-1
+{
+    position: absolute;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background: #04f504;
+    transform: translate(-250px,200px);
+}
+
+.container .ball-2
+{
+    position: absolute;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    background: #08e2ff;
+    transform: translate(-10px,-220px);
+}
+
+.container .ball-3
+{
+    position: absolute;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background: #ffc404;
+    transform: translate(150px,250px);
+} */
+
+/* .container .box
+{
+    height:86vh;
+    width:75%;
+    padding:0,20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 25px;
+    border:2px solid rgba(255,255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10,10,10,0.25);
+} */

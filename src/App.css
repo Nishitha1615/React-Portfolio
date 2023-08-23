@@ -1,0 +1,23 @@
+
+.App{
+  margin: 0;
+  scrollbar-width: none;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+  width:5.5px ;
+  /* scrollbar-width: none; */
+}
+body::-webkit-scrollbar-track{
+  /* background: #2c9ec1; */
+  background-image: linear-gradient(#a90578 ,#784ba8);
+}
+body::-webkit-scrollbar-thumb{
+  /* background-image: linear-gradient(#a90578,#88e3ff ,#784ba8); */
+  background: #2c9ec1;
+  border-radius: 3px;
+}

@@ -1,0 +1,228 @@
+/* nav
+
+{
+    &.primary-navigation {
+      margin: 0 auto;
+      display: block;
+    
+      padding: 120px 0 0 0;  
+      text-align: center;
+      font-size: 16px;
+  
+      ul li {
+        list-style: none;
+        margin: 0 auto;
+        border-left: 2px solid #3ca0e7;
+        display: inline-block;
+        padding: 0 30px;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-family: arvo;
+      }
+  
+      li a {
+        color: black;
+      }
+  
+      li a:hover {
+        color: #3ca0e7;
+      }
+  
+      li:hover {
+        cursor: pointer;
+      }
+  
+      ul li ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        padding-left: 0;
+        left: 0;
+        display: none;
+        background: white;
+      }
+  
+      ul li:hover > ul,
+      ul li ul:hover {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        min-width: 250px;
+        text-align: left;
+        padding-top: 20px;
+        box-shadow: 0px 3px 5px -1px #ccc;
+      }
+  
+      ul li ul li {
+        clear: both;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+        border-style: none;
+      }
+  
+      ul li ul li a:hover {
+        padding-left: 10px;
+        border-left: 2px solid #3ca0e7;
+        transition: all 0.3s ease;
+      }
+    }
+}
+      
+    
+  
+  
+  a {
+  
+      text-decoration: none;
+  
+      &:hover {
+          color: #3CA0E7;
+      }
+   
+  }
+
+  
+
+  
+   ul li ul li a { transition: all 0.5s ease; } */
+
+
+   /* .home-page
+   {
+    margin-top: -55rem;
+   } */
+
+
+   body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  
+.typing
+{
+  outline: none;
+  /* animation: animate 5s linear infinite; */
+  font-family: Imported;
+}
+
+.blob {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 184, 255,0.42) 31.77%,
+    #5c9df1 100%
+  );
+  mix-blend-mode: color-dodge;
+  -webkit-animation: move 25s infinite alternate;
+          animation: move 25s infinite alternate;
+  transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
+}
+
+.blob:hover {
+  width: 20px;
+  height: 20px;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  box-shadow:
+    inset 0 0 0 5px rgba(255,255,255, 0.6),
+    inset 100px 100px 0 0px #fa709a,
+    inset 200px 200px 0 0px #784ba8,
+    inset 300px 300px 0 0px #2b86c5;
+}
+
+.afterlogo{
+  margin-left: 7rem;
+  margin-top: 31.8rem;
+  width: 247px;
+  height: 210px;
+  background: linear-gradient(180deg,rgba(47,184,255,0.42) 31.77%,
+ #5c9df1 100%);
+ position: absolute;
+ /* background: linear-gradient(180deg,rgba(47,184,255,0.42) 31.77%,
+ #5c9df1 100%); */
+ filter: blur(20px);
+ animation: bouncy 17s infinite alternate;
+ transition: 1s cubic-bezier(0.07,0.8,0.16,1);
+
+
+}
+.afterlogo:hover{
+  width: 250px;
+  height: 250px;
+  filter: blur(26px);
+  box-shadow: inset 0 0 0 5px rgba(255,255,255,0.6),
+  inset 50px 50px 0 0px #a90578,
+  inset 100px 100px 0 0px #784ba8,
+  inset 200px 200px 0 0px #2b86c5;
+}
+@keyframes bouncy {
+  from{
+      transform: translate(-20px,-100px) rotate(-90deg);
+      border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+
+  }to{
+      transform: translate(-100px,-400px) rotate(-10deg);
+      border-radius: 76% 24% 33% 67% / 68% 55% 45% 32% ;
+
+  }
+}
+
+h4{
+  /* padding: 179px 200px 0px 200px ;
+  font-size: 70px;
+  font-weight: 100;
+  color: #0e3742;
+  text-transform: uppercase;
+  width:100%; */
+  /* -webkit-box-reflect: below 1px linear-gradient(transparent,#0008); */
+  font-size: 4rem;
+     margin-top: -50rem;
+    margin-left: 21rem;
+/* position:fixed
+; */
+  outline: none;
+  animation: animate 5s linear infinite;
+  font-family: Imported;
+  /* line-height: 70px; */
+}
+@keyframes animate {
+  0%,18%,30%
+  {
+      color: #0e3742;
+      text-shadow: none;
+  }
+  18.1%,30%,100%
+  {
+      color: #e5e3f5;
+      text-shadow: 0 0 10px #839094,0 0 20px #6dabbe,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 100px #03bcf4;       
+  }
+}
+   .writer
+   {
+    /* margin-top: -10rem; */
+    margin-left: 13rem;
+    padding-top: 25rem;
+   }
+
+   .profilepic{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 10px;
+    backdrop-filter: blur(5px) ;
+    position: relative;
+    z-index: 50;
+}
